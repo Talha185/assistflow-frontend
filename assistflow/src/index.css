@@ -1,19 +1,19 @@
 /* Add your Konnect font files to src/assets/fonts/ and update the URLs below */
 @font-face {
   font-family: 'Konnect';
-  src: url('./assets/fonts/Konnect-Bold.otf') format('opentype');
+  src: url('./assets/fonts/KonnectBold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Konnect';
-  src: url('./assets/fonts/Konnect-Regular.otf') format('opentype');
+  src: url('./assets/fonts/KonnectRegular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Konnect';
-  src: url('./assets/fonts/Konnect-Light.otf') format('opentype');
+  src: url('./assets/fonts/KonnectLight.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
 }
@@ -22,12 +22,13 @@
   --color-primary: #A155F9;
   --color-secondary: #ABF24E;
   --color-dark: #243142;
+  --color-bg-light: #F6F2FF;
   --font-primary: 'Konnect', system-ui, sans-serif;
   --font-bold: 'Konnect', system-ui, sans-serif;
   --font-regular: 'Konnect', system-ui, sans-serif;
   --font-light: 'Konnect', system-ui, sans-serif;
   font-family: var(--font-regular);
-  background-color: var(--color-dark);
+  background-color: var(--color-bg-light);
   color: #fff;
 }
 
@@ -35,8 +36,8 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: var(--color-dark);
-  color: #fff;
+  background: var(--color-bg-light);
+  color: #243142;
   font-family: var(--font-regular);
   transition: background 0.3s, color 0.3s;
 }

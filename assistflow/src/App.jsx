@@ -4,11 +4,14 @@ import LandingPage from './pages/LandingPage';
 import CategoryPage from './pages/CategoryPage';
 import AddCategoryPage from './pages/AddCategoryPage';
 import EditCategoryPage from './pages/EditCategoryPage';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <Navbar />
+      <div style={{ height: 64 }} />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/category/:id" element={<CategoryPage />} />

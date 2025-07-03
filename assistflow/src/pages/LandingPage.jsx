@@ -30,7 +30,7 @@ export default function LandingPage() {
         onClick={() => navigate('/add-category')}
         style={{
           position: 'fixed',
-          top: 32,
+          top: 120,
           right: 48,
           width: 64,
           height: 64,
